@@ -3,12 +3,10 @@ title: My Everyday Carry
 layout: layouts/layout.njk
 ---
 
-<h2>My 3 Everyday Carry Items</h2>
+<h1>My Everyday Carry</h1>
 
-<ul class="items-list">
-  <li><a class="item-button" href="/items/lip/">Lip Oil</a></li>
-  <li><a class="item-button" href="/items/airpods/">AirPods</a></li>
-  <li><a class="item-button" href="/items/wallet/">Wallet</a></li>
-</ul>
+{% itemCard "Lip Oil", "/images/lip.jpeg", "I always keep a lip oil with me because my lips get dry fast, and this makes them feel comfortable and look glossy throughout the day. It’s small and easy to grab anytime." %}
+{% itemCard "AirPods", "/images/airpods.jpeg", "My AirPods are a must-have. I use them for music, calls, or just blocking out noise. They’re small, connect instantly to my phone, and make walking to class or studying more fun." %}
+{% itemCard "Wallet", "/images/wallet.jpeg", "I always carry my wallet with me because it has my ID, cards, car keys, and some cash. It’s lightweight, easy to grab, and I also have an AirTag attached in case I lose it." %}
 
 

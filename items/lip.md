@@ -3,10 +3,4 @@ title: Lip Oil
 layout: layouts/layout.njk
 ---
 
-# Lip Oil 
-
-<img src="../../images/lip.jpeg" alt="Lip Oil" class="items-image" />
-
-This is my favorite lip oil. I use it every day because it keeps my lips soft and hydrated.
-I can’t leave home without it because my lips get dry very quickly.
-
+{% itemCard "Lip Oil", "/images/lip.jpeg", "I always keep a lip oil with me because my lips get dry fast, and this keeps them comfortable and glossy at the same time. It’s super small, easy to use anytime throughout the day, and especially helpful in the winter when my lips need extra moisture." %}

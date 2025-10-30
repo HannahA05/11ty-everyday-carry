@@ -12,11 +12,11 @@ body {
 /* === Navigation === */
 nav {
     margin: 20px auto;
-    width: 350px; /* a bit wider */
+    width: 350px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
-    gap: 20px; /* space between buttons */
+    gap: 20px;
 }
 
 nav a.item-button {
@@ -32,7 +32,7 @@ nav a.item-button {
 }
 
 nav a.item-button:hover {
-    background-color: #b0c4b1; /* new hover color */
+    background-color: #b0c4b1;
     transform: scale(1.05);
 }
 
@@ -46,7 +46,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    color: #4a5759; /* green titles */
+    color: #4a5759;
     margin-top: 40px;
     margin-bottom: 20px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
@@ -54,24 +54,25 @@ h2 {
 
 /* === Item Images === */
 .items-image {
-    max-width: 600px;   /* larger max width */
-    width: 90%;         /* scales nicely on smaller screens */
-    height: auto;       /* maintain aspect ratio */
+    max-width: 600px;
+    width: 90%;
+    height: auto;
     border-radius: 20px;
-    margin: 25px 0;     /* more spacing */
+    margin: 25px 0;
     box-shadow: 0 10px 15px rgba(0,0,0,0.2);
     transition: transform 0.3s;
 }
 
 .items-image:hover {
-    transform: scale(1.05); /* subtle zoom on hover */
+    transform: scale(1.05);
 }
 
 /* === Item Descriptions === */
 .item-desc {
-    font-size: 1.3em; /* make text bigger */
-    max-width: 500px;
-    margin: 0 auto 30px auto;
+    font-size: 1.45em; /* bigger text */
+    max-width: 550px;
+    margin: 10px auto 35px auto;
+    line-height: 1.7; /* easier to read */
 }
 
 /* === Homepage List === */
@@ -81,23 +82,23 @@ ul.items-list {
 }
 
 ul.items-list li {
-    margin: 15px 0; /* slightly less space than nav buttons */
+    margin: 15px 0;
 }
 
 ul.items-list li a.item-button {
-    background-color: #edafb8; /* pink buttons */
-    color: #fff;               
+    background-color: #edafb8;
+    color: #fff;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1.2em;          /* smaller than nav buttons */
-    padding: 10px 20px;        /* smaller than nav buttons */
+    font-size: 1.2em; /* smaller than header nav */
+    padding: 10px 20px;
     border-radius: 25px;
     display: inline-block;
     transition: background 0.3s, transform 0.2s;
 }
 
 ul.items-list li a.item-button:hover {
-    background-color: #b0c4b1; /* new hover color */
+    background-color: #b0c4b1;
     transform: scale(1.05);
 }
 
@@ -107,5 +108,16 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
+.item-card {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
 
 
